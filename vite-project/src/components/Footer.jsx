@@ -1,50 +1,52 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
     <footer>
-    <div className="footer_container">
-      <div className="footer_column">
-        <h3>ONLINE SHOPPING</h3>
+      <div className="footer_container">
+        <div className="footer_column">
+          <h3>ONLINE SHOPPING</h3>
 
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Home & Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">Gift Card</a>
-        <a href="#">Myntra Insider</a>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#"> & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div className="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <div className="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
       </div>
+      <hr />
 
-      <div className="footer_column">
-        <h3>ONLINE SHOPPING</h3>
-
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Home & Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">Gift Card</a>
-        <a href="#">Myntra Insider</a>
+      <div className="copyright">
+        © 2023 www.myntra.com. All rights reserved.
       </div>
+    </footer>
+  );
+};
 
-      <div className="footer_column">
-        <h3>ONLINE SHOPPING</h3>
-
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Home & Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">Gift Card</a>
-        <a href="#">Myntra Insider</a>
-      </div>
-    </div>
-    <hr />
-
-    <div className="copyright">© 2023 www.myntra.com. All rights reserved.</div>
-  </footer>
-  )
-}
-
-export default Footer
+export default Footer;
